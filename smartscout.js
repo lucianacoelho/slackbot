@@ -15,7 +15,7 @@ const con = mysql.createConnection({
 });
 
 if (con) {
-  console.log('conected');
+  console.log('connected');
 };
 
 // connects with slack
