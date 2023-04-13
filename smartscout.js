@@ -20,8 +20,8 @@ if (con) {
 
 // connects with slack
 const app = new App({
-  token: process.env.TOKEN,
-  appToken: process.env.APP_TOKEN,
+  token: token,
+  appToken: app_token,
   socketMode: true,
 });
 
