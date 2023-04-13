@@ -9,9 +9,9 @@ let secret = "971ddbb44561bc5d78f6aa07cc0fdef7"
 let app_token = "xapp-1-A047R3UB6GK-4276269730545-3ad5ebc052c22ceface05cf60d51e10c70c0ea666f55d5b65a0becec74d2afb9"
 // create the connection to database
 const con = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
+  host: 'ppslackappv2.czovis8lcihq.us-east-2.rds.amazonaws.com',
+  user: 'coelhodb',
+  password: 'abcd1234',
   database: 'ppslackappv2'
 });
 
