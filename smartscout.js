@@ -4,8 +4,8 @@ const fs = require('fs');
 const mysql = require('mysql2');
 const PDFDocument = require("pdfkit-table");
 
-let token = "xoxb-4248656851431-5129347823232-DKFflSWIzN5jYdEULFLaOy42"
-let app_token = "xapp-1-A053G6Q28EM-5129307255936-bc0f62961f9e0f1e5587282d8de2b976d3e293afbcfb8966b28fa76ff986605f"
+let token = "xoxb-4248656851431-5129347823232-lbd0dKiaW7vmFEJ9eUItlHny"
+let app_token = "xapp-1-A053G6Q28EM-5129801542304-64c1089488b9f4f01129e61f596e285acb6edd4cd9219ee1c73cd3e5063a0332"
 // create the connection to database
 const con = mysql.createConnection({
   host: 'ppslackappv2.czovis8lcihq.us-east-2.rds.amazonaws.com',
